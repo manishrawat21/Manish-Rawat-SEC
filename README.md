@@ -56,7 +56,26 @@ Threat Analysis ██████████████░░░░░░ 75%
 
 Automation & Scripting ██████████░░░░░░░░░░ 60%
 
+---
 
+## Background Section: ##
+I don't have a computer science degree. I have something better for this field: obsessive pattern recognition and the ability to think like an attacker.
+While traditional IT graduates spent 4 years learning theory, I spent mine studying real-world breaches, reverse-engineering attack chains, and building detection logic that actually works in production environments.
+My certifications aren't decorative:
+
+**Security+** (foundational security concepts)
+
+**CEH** (offensive mindset and attack vectors)
+
+**CISSP** training (security architecture and risk management)
+
+**CySA+** training (defensive operations and threat analysis)
+
+My GitHub shows what I actually build: detection rules for credential dumping, process injection, and command-and-control channels. Not academic projects. Real tools that identify threats before they become breaches.
+
+## A degree won't detect the breach, I will..
+
+---
 
 ## 📚 Publications
 I regularly share my knowledge and insights on cybersecurity topics. Check out my articles on Medium:
