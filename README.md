@@ -58,7 +58,7 @@ Automation & Scripting ██████████░░░░░░░░░
 
 ---
 
-## Background Section: ##
+## Background Section ##
 I don't have a computer science degree. I have something better for this field: obsessive pattern recognition and the ability to think like an attacker.
 While traditional IT graduates spent 4 years learning theory, I spent mine studying real-world breaches, reverse-engineering attack chains, and building detection logic that actually works in production environments.
 My certifications aren't decorative:
