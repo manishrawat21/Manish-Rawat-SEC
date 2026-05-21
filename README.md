@@ -46,7 +46,7 @@ Wazuh | Splunk | Elastic | Sigma | N8N | Velociraptor | VirusTotal | YARA | Powe
 ---
 
 ## 📊 Expertise
-Detection Engineering ████████████████████ 95% 
+Detection Engineering ███████████████░░░░ 85% 
 
 SIEM Administration ███████████████░░░░░ 80% 
 
@@ -54,7 +54,9 @@ Log Analysis ███████████████░░░░░ 80% AP
 
 Threat Analysis ██████████████░░░░░░ 75% 
 
-Automation & Scripting ██████████░░░░░░░░░░ 60%
+Automation & Scripting ██████████░░░░░░░░ 60%
+
+Cloud & IAM ████████░░░░░░░░░ 50% 
 
 ---
 
