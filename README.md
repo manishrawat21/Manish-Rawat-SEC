@@ -1,102 +1,31 @@
-# 👋 Hey, I'm Manish Rawat
+# Manish Rawat
+**Detection Engineer | SOC Automation | Threat Hunting**
 
-**Detection Engineer | SOC Automation Architect | Threat Hunter**
+Security Analyst focused on designing autonomous SOC architectures, SIEM-based detection engineering workflows, and cyber threat intelligence pipelines[cite: 2]. Experienced in bridging the gap between manual alert triage and programmatic defense by building deterministic SOAR pipelines and authoring high-fidelity, MITRE ATT&CK-mapped detection logic[cite: 2].
 
-I build detection pipelines that catch real attacks. Tested systems that connect raw telemetry to forensic validation, automatically.
+Currently open to remote opportunities in Detection Engineering, Threat Intelligence, and Security Automation.
 
----
+## Core Proficiencies
+- **Detection Engineering & SIEM:** Wazuh, Microsoft Sentinel, Splunk (SPL), ELK Stack, Sigma Rules, Sysmon, Windows Event Logs[cite: 2].
+- **SOAR & Automation:** N8N agentic pipelines, REST API integration, Python, PowerShell, Bash, JSON processing, webhook architecture[cite: 2].
+- **Threat Intelligence & Emulation:** MISP, CISA KEV catalog integration, MITRE Caldera, OSINT, hypothesis-driven threat hunting[cite: 2].
+- **Incident Response & Validation:** Velociraptor, ProcessGuid pivoting, host/process tree forensics, Diamond Model[cite: 2].
 
-## 🎯 What I Do
+## Featured Engineering Projects
+- **[Cisa-KEV-Threat-Intel-Orchestrator](https://github.com/manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator):** Zero-touch pipeline built with N8N and Google Gemini that automatically converts newly weaponized CVEs from the CISA KEV catalog into production-ready Sigma detection rules[cite: 2].
+- **[SOC Automation Lab](https://github.com/manishrawat21/soc-automation-lab):** End-to-end automated SOC detection and response lab documenting attack simulation (MITRE Caldera), detection (Wazuh), enrichment/notification (N8N), and forensic validation (Velociraptor)[cite: 2].
+- **[Phishing Email Triage Pipeline](https://github.com/manishrawat21/Phishing-Triage-Automation):** Autonomous triage pipeline utilizing N8N, VirusTotal API, and Google Gemini to extract IOCs and aggregate reputation scores, reducing time-to-verdict from 20 minutes to under 45 seconds per alert[cite: 2].
+- **[Detection-Rules & Analysis](https://github.com/manishrawat21/Analysis):** Validated custom Sigma detection rules for critical techniques observed during APT29 simulation (credential access, lateral movement, persistence) across a dataset of 196,071 log events[cite: 2].
 
-**Detection Engineering :-** Write & validate detection rules (Sigma, Splunk, YARA, Elastic) that catch real APT behavior  
-**SOC Automation :-** Design end-to-end alert workflows (detection → enrichment → investigation → notification)  
-**Threat Analysis :-** Break down APT techniques and build detections from real data
+## Publications & Writing
+Authoring technical forensics series and practical engineering guides on [Medium](https://medium.com/@manishrawat21) and [Substack](https://manishrawat21.substack.com) (System Weakness)[cite: 2]. Key topics include:
+- Advanced process tree forensics, network correlation, and detection logic[cite: 2].
+- Integrating Wazuh and N8N for automated incident response workflows.
+- Practical ELK stack configuration and debugging for SOC environments.
 
----
-
-## 🔬 Featured Work
-
-### SOC Automation Lab ⭐ (8 stars)
-**End-to-end pipeline:** Caldera attack sim → Wazuh detection → N8N enrichment → Velociraptor forensics
-
-- 🎬 [Watch Full Demo](https://youtu.be/FNTELJc-1KU)
-- 📚 [Read: "Senior Challenged Me to Build SOC Demo"](https://medium.com/system-weakness/a-senior-challenged-me-to-build-an-automated-soc-demo-heres-what-i-built-32c9995857e2)
-- 👉 [Repository](https://github.com/Manishrawat21/soc-automation-lab)
-
-**Stack:** Wazuh | N8N | VirusTotal | Velociraptor | MITRE Caldera
-
-### Detection Engineering Analysis ⭐ (6 stars)
-Deep technical research on DLL hijacking, PowerShell encoding, evasion detection
-- 👉 [Analysis Repository](https://github.com/Manishrawat21/Analysis)
-
-### APT29 Detection Rules ⭐ (4 stars)
-Validated Sigma + Splunk rules tested against 196,071 real Sysmon events
-- 👉 [Detection Rules](https://github.com/Manishrawat21/Detection-Rules)
-
-
-### YARA Threat Hunting
-Practical guide to malware detection using YARA rules
-- 👉 [Repository](https://github.com/Manishrawat21/Yara-Threat-Hunting)
-
----
-
-## 🛠 Tools & Platforms
-Wazuh | Splunk | Elastic | Sigma | N8N | Velociraptor | VirusTotal | YARA | PowerShell
-
----
-
-## 📊 Expertise
-Detection Engineering ███████████████░░░░ 85% 
-
-SIEM Administration ███████████████░░░░░ 80% 
-
-Log Analysis ███████████████░░░░░ 80% APT 
-
-Threat Analysis ██████████████░░░░░░ 75% 
-
-Automation & Scripting ██████████░░░░░░░░ 60%
-
-Cloud & IAM ████████░░░░░░░░░ 50% 
-
----
-
-## Background Section ##
-I don't have a computer science degree. I have something better for this field: obsessive pattern recognition and the ability to think like an attacker.
-While traditional IT graduates spent 4 years learning theory, I spent mine studying real-world breaches, reverse-engineering attack chains, and building detection logic that actually works in production environments.
-My certifications aren't decorative:
-
-**Security+** (foundational security concepts)
-
-**CEH** (offensive mindset and attack vectors)
-
-**CISSP** training (security architecture and risk management)
-
-**CySA+** training (defensive operations and threat analysis)
-
-My GitHub shows what I actually build: detection rules for credential dumping, process injection, and command-and-control channels. Not academic projects. Real tools that identify threats before they become breaches.
-
-## A degree won't detect the breach, I will..
-
----
-
-## 📚 Publications
-I regularly share my knowledge and insights on cybersecurity topics. Check out my articles on Medium:
-- [The PowerShell Detection Gap That’s Costing Organizations Millions](https://systemweakness.com/the-powershell-detection-gap-thats-costing-organizations-millions-e9aad28fffc4?source=friends_link&sk=afe4f365726351b108baaae325fef02d)
-- [Hunting APT29 in 196,071 Logs: What I Found in EventID 1](https://medium.com/the-first-digit/hunting-apt29-in-196-071-logs-what-i-found-in-eventid-1-65a5d850a21d)
-- [37 Sysmon Events. One Complete DLL Hijacking Attack. Here’s What Happened.](https://medium.com/system-weakness/37-sysmon-events-one-complete-dll-hijacking-attack-heres-what-happened-09076f2e38c5)
-
-👉 [Medium Profile](https://medium.com/@maxxrawat007)
-
-
-## 📊 Badges
-![GitHub](https://img.shields.io/badge/GitHub-Profile-blue)
-![Remote Work](https://img.shields.io/badge/Open%20to%20Remote%20Work-brightgreen)
-
-## 💼 Open to Work
-Detection Engineering | SOC Architecture | Threat Hunting | Incident Response
-
-**Location:** Remote worldwide  
-**Level:** Mid-level with strong foundations
-
-## 🌐 Connect
-[LinkedIn](https://www.linkedin.com/in/rawat-manish-mr2000) | [Medium](https://medium.com/@maxxrawat007) | [Substack](https://manishrawat21.substack.com) | [Email](mailto:Rawatmanish21@outlook.com)
+## Contact
+- **LinkedIn:** [linkedin.com/in/manishrawat21](https://www.linkedin.com/in/manishrawat21/)
+- **Email:** rawatmanish21@outlook.com[cite: 2]
+- **Medium:** [medium.com/@manishrawat21](https://medium.com/@manishrawat21)
+- **Substack:** [substack.com/@manishrawat21](https://substack.com/@manishrawat21)
+- **GitHub:** [github.com/manishrawat21](https://github.com/manishrawat21)[cite: 2]
